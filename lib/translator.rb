@@ -31,6 +31,4 @@ def get_english_meaning(file_path, emoticon)
       return key
     end
   end
-
-  return nil
 end
