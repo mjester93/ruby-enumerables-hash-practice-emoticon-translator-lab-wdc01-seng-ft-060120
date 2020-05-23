@@ -30,4 +30,6 @@ def get_english_meaning(file_path, emoticon)
       return "HELP"
     end
   end
+
+  return "HELP!"
 end
