@@ -27,7 +27,7 @@ def get_english_meaning(file_path, emoticon)
 
   emotes.each do |(key, values)|
     if emotes[key][:japenese] == emoticon
-      return key
+      return "HELP"
     end
   end
 end
